@@ -593,7 +593,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
                     InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="👀 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 👀", url=f"https://t.me/Athena_Support")],
             ]
         )
         requested_by = message.from_user.first_name
